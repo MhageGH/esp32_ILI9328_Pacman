@@ -54,7 +54,7 @@ byte PACMANFALLBACK = 0;
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
-#include "DrawindexedMap.h"
+#include "DrawIndexedMap.h"
 #define CS 5
 #define RESET 17
 ili9328SPI tft(CS, RESET);
